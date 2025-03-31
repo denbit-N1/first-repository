@@ -1,2 +1,2 @@
 # first-repository
-This is my first git repository. Author - Suvam Samanta
+This is my first git repository.<br> Author - Suvam Samanta
