@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.all{
+    height: 400px;
+    width: 400px;
+    padding: 25px;
+    /* margin: 40px;
+    padding: 40px; */
+    background: wheat;
+    border: 2px solid;
+}
+.login{
+    text-align: center;
+    font-size: 20px;
+}
+.data{
+    margin: 5px;
+    padding: 3px;
+}
+.data input{
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid rgb(107, 238, 107);
+}
