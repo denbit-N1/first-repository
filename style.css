@@ -23,8 +23,9 @@ body{
     font-size: 20px;
 }
 .data{
-    margin: 5px;
-    padding: 3px;
+    width: 100%;
+    height: 30px;
+    padding: 4% 0;
 }
 .data input{
     border-radius: 5px;
