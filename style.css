@@ -7,12 +7,25 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: url(background-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.all{
+#back{
+    position: relative;
     width: 400px;
     height: 400px;
     padding: 40px 20px;
-    background: violet;
+    background: rgb(255, 255, 255, 0.2);
+    filter: blur(8px);
+}
+.all{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    padding: 40px 20px;
+    background: transparent;
+    border-radius: 5px;
 }
 .login{
     text-align: center;
@@ -46,4 +59,16 @@ button{
     background: #007BFF;
     font-size: 19px;
     color: white;
+    cursor: pointer;
+}
+button:hover{
+    color: #007BFF;
+    background: white;
+}
+a:hover{
+    color: palevioletred;
+}
+.register{
+    margin: 10px 0px;
+    text-align: center;
 }
