@@ -42,7 +42,10 @@
     padding: 5px;
     border-radius: 6px;
     background: transparent;
-    border: 2px solid;
+    border: 2px solid rgba(0, 0, 255, 0.344);
+}
+.data input::placeholder{
+    color: whitesmoke;
 }
 .forgot{
     display: flex;
