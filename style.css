@@ -70,6 +70,8 @@ button{
 button:hover{
     color: #007BFF;
     background: white;
+    transform: scaleX(1.1);
+    transition: 2s;
 }
 a:hover{
     color: palevioletred;
