@@ -17,7 +17,7 @@
     width: 400px;
     height: 400px;
     padding: 10px 20px;
-    background: rgba(0, 0, 0, 0.2);
+    background: linear-gradient(rgb(0, 0, 0,0.6),rgb(4, 45, 99,0.7));
     border-radius: 5px;
     border: 2px solid #042D63;
     color: white;
