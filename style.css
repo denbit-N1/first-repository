@@ -6,10 +6,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     min-height: 100vh;
     background: url(image.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
 .all{
@@ -18,7 +20,7 @@
     height: 400px;
     padding: 10px 20px;
     background: linear-gradient(rgb(0, 0, 0,0.6),rgb(4, 45, 99,0.7));
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #042D63;
     color: white;
 }
@@ -26,6 +28,7 @@
     text-align: center;
     font-size: 30px;
     padding: 20px;
+    word-spacing: 20px;
 }
 .data{
     width: 100%;
@@ -38,10 +41,14 @@
     height: 30px;
     padding: 5px;
     border-radius: 6px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
     border: 2px solid rgba(255, 255, 255, 0.8);
     color: white;
     font-weight: bold;
+    
+}
+.pass input {
+    letter-spacing: 5px;
 }
 .data input:focus{
     outline: none;
@@ -49,6 +56,7 @@
 }
 .data input::placeholder{
     color: whitesmoke;
+    letter-spacing: normal;
 }
 .forgot{
     display: flex;
@@ -70,8 +78,8 @@ button{
 button:hover{
     color: #007BFF;
     background: white;
-    transform: scaleX(1.1);
-    transition: 2s;
+    transform: scale(1.1);
+    transition: 1.3s;
 }
 a:hover{
     color: palevioletred;
